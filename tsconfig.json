@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "dist/types",
     "target": "ES2019",
     "module": "ESNext",
     "jsx": "react-jsx",
@@ -7,7 +9,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "moduleResolution": "node",
     "types": ["jest", "node"],
     "baseUrl": ".",
