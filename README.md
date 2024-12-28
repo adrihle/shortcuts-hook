@@ -7,13 +7,13 @@
 To install the package, run:
 
 ```bash
-npm install @your-package-name
+npm install @adrihfly/shortcuts-hook
 ```
 
 Or if you are using yarn:
 
 ```bash
-yarn add @your-package-name
+yarn add @adrihfly/shortcuts-hook
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add @your-package-name
 You can use the useShortcuts hook to register a list of keyboard shortcuts and map them to specific actions in your components.
 
 ```tsx
-import { useShortcuts, ShortcutConfig } from '@your-package-name';
+import { useShortcuts, ShortcutConfig } from '@adrihfly/shortcuts-hook';
 
 const SHORTCUT_CONFIG: ShortcutConfig = {
   map: [
